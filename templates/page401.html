@@ -1,0 +1,5 @@
+{% extends 'base.html' %}
+{% block content %}
+    {{ super() }}
+    <p>У вас нет прав для просмотра этой страницы. Вернуться на <a href="{{ url_for('index') }}">главную</a> страницу</p>
+{% endblock %}
